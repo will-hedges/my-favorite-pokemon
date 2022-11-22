@@ -26,12 +26,16 @@ body {
 }
 
 .column-left {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    width: 35%;
     border: 2px solid black;
 }
 
 .column-right {
-    width: 35%;
+    padding: 25px 25px;
+    width: 50%;
     border: 2px solid black;
 }
 
@@ -44,6 +48,11 @@ body {
     align-items: center;
     height: 2rem;
     width: 2rem;
+}
+
+.pokemon-name {
+    text-align: center;
+    color: red;
 }
 
 h1 {
@@ -128,4 +137,12 @@ h1 {
 
 footer {
     text-align: center;
+}
+
+.section-break {
+    height: 2rem;
+}
+
+.trainer-section-break {
+    height: 22.5rem;
 }
