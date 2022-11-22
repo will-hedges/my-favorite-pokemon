@@ -147,3 +147,7 @@ footer {
 .trainer-section-break {
     height: 22.5rem;
 }
+
+#about-description p {
+    padding: 25px 25px;
+}
