@@ -44,11 +44,14 @@ body {
     text-align: center;
 }
 
-.pokemon img {
-    display: inline;
-    align-items: center;
-    height: 2rem;
-    width: 2rem;
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-container img {
+    height: 150px;
+    width: 150px;
 }
 
 .pokemon-name {
