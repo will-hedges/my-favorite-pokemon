@@ -7,9 +7,21 @@ body {
     font-family: "pokemon", sans-serif;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 .hero-container {
     display: flex;
     justify-content: space-around;
+}
+
+.header-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -112,4 +124,8 @@ h1 {
 
 .type-header{
     text-align: center
+}
+
+footer {
+    text-align: center;
 }
