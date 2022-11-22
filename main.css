@@ -1,3 +1,12 @@
+@font-face {
+    font-family: pokemon;
+    src: url('./fonts/PokemonGb-Raeo.ttf');
+}
+
+body {
+    font-family: "pokemon", sans-serif;
+}
+
 .hero-container {
     display: flex;
     justify-content: space-around;
