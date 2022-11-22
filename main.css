@@ -29,6 +29,63 @@ h1 {
     color: red;
 }
 
+#about {
+    background-image: url("images/background-beach.jpg");
+    border: solid coral 4px;
+}
+
+#about-header {
+    text-align: center;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#about-image {
+    box-sizing: border-box;
+    border-radius: 10%;
+    background-color: bisque;
+    border: solid coral 4px;
+    margin: 20px;
+    padding: 15px 0;
+    text-align: center;
+    width: 33%;
+}
+
+#about-gym-image {
+    width: 95%;
+    height: auto;
+}
+
+#about-locus {
+    box-sizing: border-box;
+    border-radius: 10%;
+    background-color: bisque;
+    border: solid coral 4px;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+#about-description {
+    box-sizing: border-box;
+    border-radius: 10%;
+    background-color: bisque;
+    border: solid coral 4px;
+    margin: 20px;
+    padding: 10px;
+    width: 33%;
+}
+
+#about-description-story {
+    text-align: center;
+
+}
+
+
 .header-image1, .header-image2{
     max-width: 23rem;
     height: auto
