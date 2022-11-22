@@ -1,3 +1,15 @@
 h1 {
     color: red;
 }
+
+.header-image1, .header-image2{
+    max-width: 23rem;
+    height: auto
+
+}
+
+.footer-image{
+    width: 50rem;
+    height: 5rem
+}
+
